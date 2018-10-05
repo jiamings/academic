@@ -30,13 +30,13 @@ def create_cventry_publication(pub, colabs):
             authors.append(href(colab['url'], colab['name']))
         else:
             authors.append(author)
-    if len(pub['url']) > 0:
+    if 'url' in pub.keys() and len(pub['url']) > 0:
         paper = href(pub['url'], pub['name'])
     else:
         paper = pub['name']
 
     if 'workshops' in pub.keys() and len(pub['workshops']) > 0:
-        workshops = '\\\\Abridged version in ' + ', '.join([textit(s) for s in pub['workshops']]) + '.'
+        workshops = 'Abridged version in ' + ', '.join([textit(s) for s in pub['workshops']]) + '.'
     else:
         workshops = ''
 
@@ -52,15 +52,24 @@ def create_cventry_publication(pub, colabs):
         appear = ''
         date = ''
 
-    conference = appear + ' ' + textit(pub['conference']) + '. '
-    if 'additional' in pub.keys():
-        conference += pub['additional'] + '.'
+    if 'conference' in pub.keys():
+        conference = appear + ' ' + textit(pub['conference']) + '. '
+        if 'additional' in pub.keys() and len(pub['additional']) > 0:
+            conference += pub['additional'] + '.'
+    else:
+        conference = ''
+
+    if 'locations' in pub.keys() and len(pub['locations']) > 0:
+        locations = 'In ' + ', '.join([textit(s) for s in pub['locations']]) + '.'
+    else:
+        locations = ''
 
     return command('cventry', [
         '\\footnotesize ' + date,
         '\\bfseries ' + paper,
         '', '', '',
-        '\\normalfont ' + ', '.join(authors) + '.\\\\' + conference + workshops
+        '\\normalfont ' + ', '.join(authors) + '.\\\\' +
+        '\\\\'.join([s for s in [conference, locations, workshops] if len(s) > 0])
     ])
 
 
@@ -68,8 +77,12 @@ if __name__ == '__main__':
     with open('publications.yml', 'r') as f:
         d = yaml.load(f.read())
 
-    ss = []
+    ss = ['\\section{' + 'Publications' + '}\n\n']
     for pub in d['publications']:
+        s = create_cventry_publication(pub, d['collaborators'])
+        ss.append(s)
+    ss += ['\n\n\\section{' + 'Workshop Papers and Manuscripts' + '}\n\n']
+    for pub in d['preprints']:
         s = create_cventry_publication(pub, d['collaborators'])
         ss.append(s)
 
