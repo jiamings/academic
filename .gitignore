@@ -2,6 +2,15 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.gz
 
 # C extensions
 *.so

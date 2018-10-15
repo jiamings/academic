@@ -87,5 +87,5 @@ if __name__ == '__main__':
         ss.append(s)
 
     ss = '\n'.join(ss)
-    with open('publications.tex', 'w') as f:
+    with open('cv/src/publications.tex', 'w') as f:
         f.write(ss)

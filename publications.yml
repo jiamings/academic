@@ -30,6 +30,16 @@ publications:
   slides: ""
   blog: ""
   date: "12/03/2018"
+- name: "Learning with Weak Supervision from Physics and Data-Driven Constraints"
+  url: "https://www.aaai.org/ojs/index.php/aimagazine/article/view/2776"
+  authors:
+  - Hongyu Ren
+  - Russell Stewart
+  - Jiaming Song
+  - Volodymyr Kuleshov
+  - Stefano Ermon
+  conference: "AI Magazine 39(1): 27-38"
+  date: "08/17/2018"
 - name: "A Lagrangian Perspective on Latent Variable Generative Models"
   url: "https://arxiv.org/abs/1806.06514"
   authors:
@@ -202,6 +212,26 @@ preprints:
   code: "https://github.com/jiamings/markov-chain-gan"
   poster: "http://tsong.me/static/docs/mgan-poster.pdf"
   date: "04/06/2017"
+  locations: 
+  - "the 5th International Conference on Learning Representations (ICLR 2017) Workshop"
+- name: "Max-Margin Nonparametric Latent Feature Relational Models for Link Prediction"
+  authors:
+  - Jun Zhu
+  - Jiaming Song
+  - Bei Chen
+  locations:
+  - arXiv preprint arXiv:1602.07428
+  url: "https://arxiv.org/abs/1602.07428"
+  date: "02/04/2016"
+- name: "Torwards Deeper Understanding of Variational Autoencoding Models"
+  authors:
+  - Shengjia Zhao
+  - Jiaming Song
+  - Stefano Ermon
+  locations:
+  - arXiv preprint arXiv:1702.08658
+  url: "https://arxiv.org/abs/1702.08658"
+  date: "02/18/2017"
 
 
 collaborators:
@@ -209,3 +239,15 @@ collaborators:
   url: http://tsong.me
 - name: Shengjia Zhao
   url: http://szhao.me
+- name: Stefano Ermon
+  url: http://cs.stanford.edu/~ermon
+- name: Dorsa Sadigh
+  url: http://dorsa.fyi
+- name: Aditya Grover
+  url: http://aditya-grover.github.io/
+- name: Volodymyr Kuleshov
+  url: http://web.stanford.edu/~kuleshov/
+- name: Jun Zhu
+  url: http://ml.cs.tsinghua.edu.cn/~jun/index.shtml
+- name: Lawrence Carin
+  url: http://people.ee.duke.edu/~lcarin
