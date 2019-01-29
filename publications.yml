@@ -1,4 +1,26 @@
 publications:
+- name: "Learning Controllable Fair Representations"
+  url: "https://arxiv.org/abs/1812.04218"
+  authors:
+  - Jiaming Song
+  - Pratyusha Kalluri
+  - Aditya Grover
+  - Shengjia Zhao
+  - Stefano Ermon
+  conference: "the 22nd International Conference on Artificial Intelligence and Statistics (AISTATS 2019)"
+  workshops:
+  - "ICML Workshop on Theoretical Foundations and Applications of Deep Generative Models"
+  date: "04/16/2019"
+- name: "InfoVAE: Information Maximizing Variational Autoencoders"
+  url: "https://arxiv.org/abs/1706.02262"
+  authors:
+  - Shengjia Zhao
+  - Jiaming Song
+  - Stefano Ermon
+  conference: "33rd AAAI Conference on Artificial Intelligence (AAAI 2018)"
+  workshops:
+  - "ICML Workshop on Theoretical Foundations and Applications of Deep Generative Models"
+  date: "01/27/2019"
 - name: "Multi-Agent Generative Adversarial Imitation Learning"
   url: https://arxiv.org/abs/1807.09936
   authors:
@@ -138,15 +160,6 @@ publications:
   date: "06/25/2015"
 
 preprints:
-- name: "InfoVAE: Information Maximizing Variational Autoencoders"
-  url: "https://arxiv.org/abs/1706.02262"
-  authors:
-  - Shengjia Zhao
-  - Jiaming Song
-  - Stefano Ermon
-  locations:
-  - "ICML 2018 Workshop on Theoretical Foundations and Applications of Deep Generative Models"
-  date: "07/06/2018"
 - name: "Dual Optimization for Latent Variable Generative Models"
   url: "https://arxiv.org/abs/1806.06514"
   authors:
@@ -161,16 +174,6 @@ preprints:
   - Laetitia Shao*
   - Jiaming Song*
   - Aditya Grover
-  - Stefano Ermon
-  locations:
-  - "ICML 2018 Workshop on Theoretical Foundations and Applications of Deep Generative Models"
-  date: "07/06/2018"
-- name: "Learning Controllable Fair Representations via Latent Variable Generative Models"
-  authors:
-  - Jiaming Song
-  - Pratyusha Kalluri
-  - Aditya Grover
-  - Shengjia Zhao
   - Stefano Ermon
   locations:
   - "ICML 2018 Workshop on Theoretical Foundations and Applications of Deep Generative Models"

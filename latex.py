@@ -36,7 +36,7 @@ def create_cventry_publication(pub, colabs):
         paper = pub['name']
 
     if 'workshops' in pub.keys() and len(pub['workshops']) > 0:
-        workshops = 'Abridged version in ' + ', '.join([textit(s) for s in pub['workshops']]) + '.'
+        workshops = 'Abridged in ' + ', '.join([textit(s) for s in pub['workshops']]) + '.'
     else:
         workshops = ''
 
