@@ -17,7 +17,7 @@ publications:
   - Shengjia Zhao
   - Jiaming Song
   - Stefano Ermon
-  conference: "33rd AAAI Conference on Artificial Intelligence (AAAI 2018)"
+  conference: "the 33rd AAAI Conference on Artificial Intelligence (AAAI 2018)"
   workshops:
   - "ICML Workshop on Theoretical Foundations and Applications of Deep Generative Models"
   date: "01/27/2019"
@@ -33,24 +33,20 @@ publications:
   workshops:
   - "the 6th International Conference on Learning Representations (ICLR 2018) Workshop Track"
   - "1st Workshop on Goal Specifications for Reinforcement Learning"
-  code: ""
-  slides: ""
-  blog: ""
+  code: "https://github.com/ermongroup/multiagent-gail"
   date: "12/03/2018"
 - name: "Bias and Generalization in Deep Generative Models: An Empirical Study"
-  url: ""
+  url: "https://arxiv.org/abs/1811.03259"
   authors:
-  - Shengjia Zhao
-  - Hongyu Ren
+  - Shengjia Zhao*
+  - Hongyu Ren*
   - Arianna Yuan
   - Jiaming Song
   - Noah Goodman
   - Stefano Ermon
   conference: "the 31th Neural Information Processing Systems (NIPS 2018)."
   additional: "Spotlight Presentation"
-  code: ""
-  slides: ""
-  blog: ""
+  code: "https://github.com/ermongroup/BiasAndGeneralization"
   date: "12/03/2018"
 - name: "Learning with Weak Supervision from Physics and Data-Driven Constraints"
   url: "https://www.aaai.org/ojs/index.php/aimagazine/article/view/2776"
