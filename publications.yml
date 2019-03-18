@@ -8,6 +8,7 @@ publications:
   - Shengjia Zhao
   - Stefano Ermon
   conference: "the 22nd International Conference on Artificial Intelligence and Statistics (AISTATS 2019)"
+  code: "https://github.com/ermongroup/lag-fairness"
   workshops:
   - "ICML Workshop on Theoretical Foundations and Applications of Deep Generative Models"
   date: "04/16/2019"
@@ -18,6 +19,7 @@ publications:
   - Jiaming Song
   - Stefano Ermon
   conference: "the 33rd AAAI Conference on Artificial Intelligence (AAAI 2018)"
+  blog: "https://ermongroup.github.io/blog/a-tutorial-on-mmd-variational-autoencoders/"
   workshops:
   - "ICML Workshop on Theoretical Foundations and Applications of Deep Generative Models"
   date: "01/27/2019"
