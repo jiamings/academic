@@ -1,4 +1,23 @@
 publications:
+- name: "Multi-Agent Adversarial Inverse Reinforcement Learning"
+  authors:
+  - Lantao Yu
+  - Jiaming Song
+  - Stefano Ermon
+  conference: "the 36th International Conference on Machine Learning (ICML 2019)"
+  code: "https://github.com/ermongroup/ma-airl"
+  date: "06/10/2019"
+- name: "Calibrated Model-based Reinforcement Learning"
+  authors:
+  - Ali Malik
+  - Volodymyr Kuleshov
+  - Jiaming Song
+  - Danny Nemer
+  - Harlan Seymour
+  - Stefano Ermon
+  conference: "the 36th International Conference on Machine Learning (ICML 2019)"
+  code: "https://github.com/ermongroup/CalibratedModelBasedRL"
+  date: "06/10/2019"
 - name: "Learning Controllable Fair Representations"
   url: "https://arxiv.org/abs/1812.04218"
   authors:
