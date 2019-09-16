@@ -1,5 +1,18 @@
 publications:
+- name: "Bias Correction of Learned Generative Models using Likelihood-free Importance Weighting"
+  url: "https://arxiv.org/abs/1906.09531"
+  authors:
+  - Aditya Grover
+  - Jiaming Song
+  - Alekh Agarwal
+  - Kenneth Tran
+  - Ashish Kapoor
+  - Eric Horvitz
+  - Stefano Ermon
+  conference: "the 32nd Neural Information Processing Systems (NeurIPS 2019)"
+  date: "12/10/2019"
 - name: "Multi-Agent Adversarial Inverse Reinforcement Learning"
+  url: "https://arxiv.org/abs/1907.13220"
   authors:
   - Lantao Yu
   - Jiaming Song
@@ -8,6 +21,7 @@ publications:
   code: "https://github.com/ermongroup/ma-airl"
   date: "06/10/2019"
 - name: "Calibrated Model-based Reinforcement Learning"
+  url: "https://arxiv.org/abs/1906.08312"
   authors:
   - Ali Malik
   - Volodymyr Kuleshov
@@ -49,7 +63,7 @@ publications:
   - Hongyu Ren
   - Dorsa Sadigh
   - Stefano Ermon
-  conference: "the 31th Neural Information Processing Systems (NIPS 2018)"
+  conference: "the 31th Neural Information Processing Systems (NeurIPS 2018)"
   additional: ""
   workshops:
   - "the 6th International Conference on Learning Representations (ICLR 2018) Workshop Track"
