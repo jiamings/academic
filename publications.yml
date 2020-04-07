@@ -1,4 +1,76 @@
 publications:
+- name: "Bridging the Gap Between f-GANs and Wasserstein GANs"
+  url: "https://arxiv.org/abs/1910.09779"
+  authors:
+  - Jiaming Song
+  - Stefano Ermon
+  date: "10/23/2019"
+  conference: "arXiv preprint arXiv:1910.09779"
+- name: "Unsupervised Out-of-distribution Detection with Batch Normalization"
+  url: "https://arxiv.org/abs/1910.09115"
+  authors:
+  - Jiaming Song
+  - Yang Song
+  - Stefano Ermon
+  date: "10/21/2019"
+  conference: "arXiv preprint arXiv:1910.09115"
+- name: "Robust and On-the-fly Dataset Denoising for Image Classification"
+  url: "https://arxiv.org/abs/2003.10647"
+  authors:
+  - Jiaming Song
+  - Lunjia Hu
+  - Michael Auli
+  - Yann Dauphin
+  - Tengyu Ma
+  date: "3/24/2020"
+  conference: "arXiv preprint arXiv:2003:10647"
+- name: "Training Deep Energy-Based Models with f-Divergence Minimization"
+  authors:
+  - Lantao Yu
+  - Yang Song
+  - Jiaming Song
+  - Stefano Ermon
+  url: "https://arxiv.org/abs/2003.03463"
+  date: "3/10/2020"
+  conference: "arXiv preprint arXiv:2003:03463"
+- name: "Understanding the Limitations of Variational Mutual Information Estimators"
+  url: "https://arxiv.org/abs/1910.06222"
+  authors:
+  - Jiaming Song
+  - Stefano Ermon
+  date: "4/27/2020"
+  conference: "the 8th International Conference on Learning Representations"
+  code: "https://github.com/ermongroup/smile-mi-estimator"
+- name: "A Theory of Usable Information under Computational Constraints"
+  url: "https://arxiv.org/abs/2002.10689"
+  authors:
+  - Yilun Xu
+  - Shengjia Zhao
+  - Jiaming Song
+  - Russell Stweart
+  - Stefano Ermon
+  date: "4/27/2020"
+  conference: "the 8th International Conference on Learning Representations (Oral)"
+- name: "Gaussianization Flows"
+  url: "https://arxiv.org/abs/2003.01941"
+  authors:
+  - Chenlin Meng
+  - Yang Song
+  - Jiaming Song
+  - Stefano Ermon
+  date: "5/16/2020"
+  conference: "the 23th International Conference on Artificial Intelligence and Statistics (AISTATS 2020)"
+- name: "Permutation Invariant Graph Generation via Score-Based Generative Modeling"
+  url: "https://arxiv.org/abs/2003.00638"
+  authors:
+  - Chenhao Niu
+  - Yang Song
+  - Jiaming Song
+  - Shengjia Zhao
+  - Aditya Grover
+  - Stefano Ermon
+  date: "5/16/2020"
+  conference: "the 23th International Conference on Artificial Intelligence and Statistics (AISTATS 2020)"
 - name: "Bias Correction of Learned Generative Models using Likelihood-free Importance Weighting"
   url: "https://arxiv.org/abs/1906.09531"
   authors:
@@ -189,7 +261,6 @@ publications:
   - Bo Zhang
   conference: "10th Association for the Advancement of Artificial Intelligence Conference (AAAI 2016)"
   date: "06/25/2015"
-
 preprints:
 - name: "Dual Optimization for Latent Variable Generative Models"
   url: "https://arxiv.org/abs/1806.06514"
@@ -212,7 +283,7 @@ preprints:
 - name: "Structured Prediction with Adversarial Constraint Learning"
   authors:
   - Hongyu Ren
-  - Russell Stweart
+  - Russell Stewart
   - Jiaming Song
   - Volodymyr Kuleshov
   - Stefano Ermon

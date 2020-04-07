@@ -68,7 +68,7 @@ def create_cventry_publication(pub, colabs):
         '\\footnotesize ' + date,
         '\\bfseries ' + paper,
         '', '', '',
-        '\\normalfont ' + ', '.join(authors) + '.\\\\' +
+        '\\normalfont ' + ', '.join(['\\textbf{' + author + '}' if 'Jiaming Song' in author else author for author in authors]) + '.\\\\' +
         '\\\\'.join([s for s in [conference, locations, workshops] if len(s) > 0])
     ])
 
