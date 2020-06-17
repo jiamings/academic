@@ -4,8 +4,27 @@ publications:
   authors:
   - Jiaming Song
   - Stefano Ermon
-  date: "10/23/2019"
-  conference: "arXiv preprint arXiv:1910.09779"
+  date: "07/12/2020"
+  conference: "the 37-th International Conference on Machine Learning"
+- name: "Training Deep Energy-Based Models with f-Divergence Minimization"
+  authors:
+  - Lantao Yu
+  - Yang Song
+  - Jiaming Song
+  - Stefano Ermon
+  url: "https://arxiv.org/abs/2003.03463"
+  date: "07/12/2020"
+  conference: "the 37-th International Conference on Machine Learning"
+- name: "Domain Adaptive Imitation Learning"
+  authors:
+  - Kuno Kim
+  - Yihong Gu
+  - Jiaming Song
+  - Shengjia Zhao
+  - Stefano Ermon
+  url: "https://arxiv.org/abs/1910.00105"
+  date: "07/12/2020"
+  conference: "the 37-th International Conference on Machine Learning"
 - name: "Unsupervised Out-of-distribution Detection with Batch Normalization"
   url: "https://arxiv.org/abs/1910.09115"
   authors:
@@ -24,15 +43,6 @@ publications:
   - Tengyu Ma
   date: "3/24/2020"
   conference: "arXiv preprint arXiv:2003:10647"
-- name: "Training Deep Energy-Based Models with f-Divergence Minimization"
-  authors:
-  - Lantao Yu
-  - Yang Song
-  - Jiaming Song
-  - Stefano Ermon
-  url: "https://arxiv.org/abs/2003.03463"
-  date: "3/10/2020"
-  conference: "arXiv preprint arXiv:2003:03463"
 - name: "Understanding the Limitations of Variational Mutual Information Estimators"
   url: "https://arxiv.org/abs/1910.06222"
   authors:
@@ -190,7 +200,7 @@ publications:
   code: "https://github.com/ermongroup/higher_order_invariance"
   date: "07/08/2018"
 - name: "Adversarial Constraint Learning for Structured Prediction"
-  url: "https://arxiv.org/abs/1805.1056"
+  url: "https://arxiv.org/abs/1805.10561"
   authors:
   - Hongyu Ren
   - Russell Stewart
@@ -201,6 +211,7 @@ publications:
   workshops:
   - "NIPS Workshop on Learning with Limited Data"
   date: "07/08/2018"
+  code: "https://github.com/ermongroup/acl"
 - name: "A-NICE-MC: Adversarial Training for MCMC"
   url: https://arxiv.org/abs/1706.07561
   authors:
