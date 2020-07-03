@@ -5,7 +5,8 @@ publications:
   - Jiaming Song
   - Stefano Ermon
   date: "07/12/2020"
-  conference: "the 37-th International Conference on Machine Learning"
+  conference: "the 37th International Conference on Machine Learning (ICML 2020)"
+  code: "https://github.com/ermongroup/f-wgan"
 - name: "Training Deep Energy-Based Models with f-Divergence Minimization"
   authors:
   - Lantao Yu
@@ -14,7 +15,7 @@ publications:
   - Stefano Ermon
   url: "https://arxiv.org/abs/2003.03463"
   date: "07/12/2020"
-  conference: "the 37-th International Conference on Machine Learning"
+  conference: "the 37th International Conference on Machine Learning (ICML 2020)"
 - name: "Domain Adaptive Imitation Learning"
   authors:
   - Kuno Kim
@@ -24,7 +25,7 @@ publications:
   - Stefano Ermon
   url: "https://arxiv.org/abs/1910.00105"
   date: "07/12/2020"
-  conference: "the 37-th International Conference on Machine Learning"
+  conference: "the 37th International Conference on Machine Learning (ICML 2020)"
 - name: "Unsupervised Out-of-distribution Detection with Batch Normalization"
   url: "https://arxiv.org/abs/1910.09115"
   authors:
@@ -41,15 +42,15 @@ publications:
   - Michael Auli
   - Yann Dauphin
   - Tengyu Ma
-  date: "3/24/2020"
-  conference: "arXiv preprint arXiv:2003:10647"
+  date: "8/24/2020"
+  conference: "the 16th European Conference on Computer Vision (ECCV 2020)"
 - name: "Understanding the Limitations of Variational Mutual Information Estimators"
   url: "https://arxiv.org/abs/1910.06222"
   authors:
   - Jiaming Song
   - Stefano Ermon
   date: "4/27/2020"
-  conference: "the 8th International Conference on Learning Representations"
+  conference: "the 8th International Conference on Learning Representations (ICLR 2020)"
   code: "https://github.com/ermongroup/smile-mi-estimator"
 - name: "A Theory of Usable Information under Computational Constraints"
   url: "https://arxiv.org/abs/2002.10689"
@@ -60,7 +61,8 @@ publications:
   - Russell Stweart
   - Stefano Ermon
   date: "4/27/2020"
-  conference: "the 8th International Conference on Learning Representations (Oral)"
+  conference: "the 8th International Conference on Learning Representations (ICLR 2020)"
+  additional: "Oral presentation."
 - name: "Gaussianization Flows"
   url: "https://arxiv.org/abs/2003.01941"
   authors:
