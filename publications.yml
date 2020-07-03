@@ -1,4 +1,14 @@
 publications:
+- name: "Robust and On-the-fly Dataset Denoising for Image Classification"
+  url: "https://arxiv.org/abs/2003.10647"
+  authors:
+  - Jiaming Song
+  - Lunjia Hu
+  - Michael Auli
+  - Yann Dauphin
+  - Tengyu Ma
+  date: "8/24/2020"
+  conference: "the 16th European Conference on Computer Vision (ECCV 2020)"
 - name: "Bridging the Gap Between f-GANs and Wasserstein GANs"
   url: "https://arxiv.org/abs/1910.09779"
   authors:
@@ -34,16 +44,6 @@ publications:
   - Stefano Ermon
   date: "10/21/2019"
   conference: "arXiv preprint arXiv:1910.09115"
-- name: "Robust and On-the-fly Dataset Denoising for Image Classification"
-  url: "https://arxiv.org/abs/2003.10647"
-  authors:
-  - Jiaming Song
-  - Lunjia Hu
-  - Michael Auli
-  - Yann Dauphin
-  - Tengyu Ma
-  date: "8/24/2020"
-  conference: "the 16th European Conference on Computer Vision (ECCV 2020)"
 - name: "Understanding the Limitations of Variational Mutual Information Estimators"
   url: "https://arxiv.org/abs/1910.06222"
   authors:
